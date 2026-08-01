@@ -1,1 +1,0 @@
-# KGMD_OSSP
