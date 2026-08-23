@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -std=c11
 
-PROGRAMS = fork_demo exec_demo process_tree
+PROGRAMS = fork_demo exec_demo process_tree shell
 
 all: $(PROGRAMS)
 
@@ -13,6 +13,9 @@ exec_demo:
 
 process_tree:
 	$(CC) $(CFLAGS) src/process_tree.c -o process_tree
+
+shell:
+	$(CC) $(CFLAGS) src/shell.c -o shell
 
 clean:
 	rm -f $(PROGRAMS)

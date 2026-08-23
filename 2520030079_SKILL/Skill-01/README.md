@@ -28,4 +28,46 @@ Skill-01/
 └── src/
     ├── fork_demo.c
     ├── exec_demo.c
-    └── process_tree.c
+    └── process_tree.c# Skill-01: Linux Process Management and Interactive Shell
+
+## Objective
+
+To understand Linux process management and develop a basic interactive shell. The skill covers process creation, process replacement, parent-child relationships, process tree inspection, system call tracing, interactive shell control flow, keyboard input handling, Backspace, Enter, input buffering, and multi-character commands.
+
+---
+
+# Question 1: Linux Process Management
+
+## Requirements
+
+- Install and configure Linux environment
+- Configure GCC
+- Setup Git repository
+- Create project structure
+- Understand shell architecture
+- Build initial Makefile
+- Analyze process abstraction
+- Execute `fork()`
+- Understand `exec()` family
+- Analyze parent-child relationships
+- Inspect process tree
+- Practice system call tracing
+
+## 1. Process Abstraction
+
+A process is a program in execution.
+
+Important process information includes:
+
+- Process ID (PID)
+- Parent Process ID (PPID)
+- Process state
+- Memory information
+- System resources
+
+Processes can be inspected using:
+
+```bash
+ps
+ps -ef
+
